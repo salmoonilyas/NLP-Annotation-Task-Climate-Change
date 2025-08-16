@@ -1,0 +1,4 @@
+::CoreNLP
+::Using following code in command prompt and change the location to the location of file in your pc.
+::Used with stanford-corenlp-4.5.4
+java edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,lemma,ner -file D:\_workspace\vscode_workspace\Universität-Trier\NLP\source_txt_files_ClimateChange\files\2021-08-13_74.txt -outputFormat conll
